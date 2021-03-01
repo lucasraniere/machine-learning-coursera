@@ -30,7 +30,7 @@ A([1 3], :) % returns all the elements of the rows 1 and 3
 
 A(:, 2) = [10; 11; 12] % assigning new values to the elements of the 2nd column
 
-A = [A, [100; 101; 102]]; % appende another column vector to the right
+A = [A, [100; 101; 102]]; % append another column vector to the right
 
 A(:) % put all elements of A into a single column vector
 
