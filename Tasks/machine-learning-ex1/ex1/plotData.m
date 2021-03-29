@@ -1,10 +1,14 @@
 function plotData(x, y)
+  
 %PLOTDATA Plots the data points x and y into a new figure 
 %   PLOTDATA(x,y) plots the data points and gives the figure axes labels of
 %   population and profit.
 
 figure; % open a new figure window
+plot(x1,y1, 'rx', 'MarkerSize', 10);
 
+xlabel('population')
+ylabel('revenue')
 % ====================== YOUR CODE HERE ======================
 % Instructions: Plot the training data into a figure using the 
 %               "figure" and "plot" commands. Set the axes labels using
@@ -15,6 +19,13 @@ figure; % open a new figure window
 % Hint: You can use the 'rx' option with plot to have the markers
 %       appear as red crosses. Furthermore, you can make the
 %       markers larger by using plot(..., 'rx', 'MarkerSize', 10);
+
+%D = load('ex1data1.txt');
+
+%x1 = D(:, 1);
+%y1 = D(:, 2);
+
+
 
 
 
